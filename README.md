@@ -1,2 +1,4 @@
 # shattereddisk.github.io
-WIP (and kinda screwed up rn (css is broken))
+- Fixed & cleaned up compared to what it used to be (one single heavy HTML file)
+- Actually looks half-decent
+- CSS is fixed

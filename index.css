@@ -166,7 +166,7 @@ body:before {
   width: 100vw;
   z-index: 0;
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg%20viewBox%3D%220%200%20512%20512%22%20width%3D%22512%22%20height%3D%22512%22%20version%3D%221.1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%20%3Cfilter%20id%3D%22noise%22%3E%20%3CfeTurbulence%20type%3D%22fractalNoise%22%20baseFrequency%3D%220.875%22%20result%3D%22noise%22%20%2F%3E%20%3CfeColorMatrix%20type%3D%22matrix%22%20values%3D%220.96484375%200%200%200%200%200%200.52734375%200%200%200%200%200%200.38671875%200%200%200%200%200%200.66796875%200%22%20%2F%3E%20%3C%2Ffilter%3E%20%3Crect%20filter%3D%22url%28%23noise%29%22%20x%3D%220%22%20y%3D%220%22%20width%3D%22512%22%20height%3D%22512%22%20fill%3D%22transparent%22%20opacity%3D%221%22%20%2F%3E%3C%2Fsvg%3E"),
-    linear-gradient(135deg, rgba(255, 194, 176, 0.812) 39%, rgba(148, 83, 116, 0.78) 88%), url("assets/images/bg.gif");
+    linear-gradient(135deg, rgba(255, 194, 176, 0.812) 39%, rgba(148, 83, 116, 0.78) 88%), url("assets/bg.gif");
   background-size: 512px, cover, 10rem;
   background-position: center, 0% 0%, center;
   background-repeat: repeat, repeat, repeat;
@@ -483,7 +483,8 @@ h1 span[style],
 h2 span[style],
 h3 span[style],
 p span[style],
-h1 strong,
+h1 
+,
 h2 strong,
 h3 strong,
 p strong,

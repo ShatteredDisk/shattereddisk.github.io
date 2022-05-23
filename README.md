@@ -1,2 +1,2 @@
 # shattereddisk.github.io
-My Github Pages home page &amp; portfolio
+WIP (and kinda screwed up rn (css is broken))
